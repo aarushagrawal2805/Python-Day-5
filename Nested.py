@@ -10,5 +10,5 @@ def outer_fun(a, b):
     add = addition(a, b)
     return add + 10
 
-result = outer_fun(50, 10)
-print("Sum is :",result)
+#result = outer_fun(50, 10)
+print("Sum is :", outer_fun(50, 10))
