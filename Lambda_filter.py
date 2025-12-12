@@ -1,0 +1,7 @@
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+def Even():
+    Even_no = list(filter(lambda x:x%2==0,numbers))
+    return Even_no
+
+print(Even())
