@@ -3,7 +3,7 @@
 numbers = [1, 2, 3, 4, 5]
 
 def square():
-    square1=list(map(lambda x:x*x,numbers))
+    square1=list(map(lambda x:x+x,numbers))
     return square1
 
 print(square())
